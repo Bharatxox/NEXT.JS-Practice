@@ -53,16 +53,16 @@ const UserList = () => {
           <table className="min-w-full bg-white shadow-md">
             <thead>
               <tr className="border-x border-gray-200">
-                <th className="py-3 px-6 bg-gray-200 text-left text-sm font-semibold text-gray-700">
+                <th className="py-3 px-6 bg-blue-500 text-left text-sm font-semibold text-white">
                   Name
                 </th>
-                <th className="py-3 px-6 bg-gray-200 text-left text-sm font-semibold text-gray-700">
+                <th className="py-3 px-6 bg-blue-500 text-left text-sm font-semibold text-white">
                   Email
                 </th>
-                <th className="py-3 px-6 bg-gray-200 text-left text-sm font-semibold text-gray-700">
+                <th className="py-3 px-6 bg-blue-500 text-left text-sm font-semibold text-white">
                   Role
                 </th>
-                <th className="py-3 px-6 bg-gray-200 text-left text-sm font-semibold text-gray-700">
+                <th className="py-3 px-6 bg-blue-500 text-left text-sm font-semibold text-white">
                   Status
                 </th>
               </tr>
@@ -71,7 +71,7 @@ const UserList = () => {
               {users.map((user) => (
                 <tr
                   key={user.id}
-                  className="border-b border-x border-gray-200 hover:bg-gray-50"
+                  className="border-b border-x border-gray-200 hover:bg-blue-50"
                 >
                   <td className="py-4 px-6 text-sm text-gray-800">
                     {user.name}
